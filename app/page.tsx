@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Header() {
   return (
-    <div>
+    <div className="gg">
       <header className="bg-[#0b0e11] w-full">
         <div className="w-[1300px] mx-auto h-[80px] flex items-center justify-between px-[20px]">
           <div className="flex items-center gap-[80px]">
@@ -131,7 +131,6 @@ export default function Header() {
                     </div>
                   </Link>
 
-                  {/* Хоёр дахь карт (Жишээ) */}
                   <Link href="/survival" className="group block">
                     <div className="w-full h-[500px] bg-[#16191d] border border-[#1f2226] rounded-[20px] p-[40px] flex flex-col justify-end transition-all duration-500 hover:border-[#333] relative overflow-hidden text-white/20 uppercase font-black tracking-widest italic items-center justify-center">
                       Coming Soon
